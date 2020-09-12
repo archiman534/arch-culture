@@ -42,7 +42,7 @@ table {
 	border-spacing: 0;
 }
 .header{
-    height: 60px;
+    height: 40px;
     background: #000;
     opacity: 50%;
     display: flex;
@@ -55,13 +55,13 @@ table {
 }
 .header li{
     margin-right: 20px;
-    height: 60px;
 }
 .header a{
     display: block;
     color: white;
     font-size: 24px;
     text-decoration: none;
+    height: 80px;
 }
 h1{
     color: white;
