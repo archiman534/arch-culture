@@ -65,11 +65,20 @@ table {
     text-decoration: none;
     text-align: center;
 }
+.header a :hover{
+    border-bottom: 1px solid #000;
+}
 h1{
     color: white;
     font-size: 36px;
 }
 .content{
     width: 1200px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.footer{
+    background: black;
+    height: 80px;
 }
