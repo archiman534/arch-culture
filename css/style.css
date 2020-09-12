@@ -46,7 +46,12 @@ table {
     background: #000;
     opacity: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.header ol{
+    display: flex;
 }
 .header a{
     display: block;
