@@ -45,4 +45,15 @@ table {
     height: 100px;
     background: #000;
     opacity: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.header a{
+    display: block;
+    color: white;
+    font-size: 24px;
+}
+h1{
+    color: white;
+    font-size: 36px;
 }
