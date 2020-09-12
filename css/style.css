@@ -73,10 +73,14 @@ h1{
     font-size: 36px;
 }
 .content{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 30px;
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+.content img{
+    margin: 20px;
 }
 .footer{
     background: black;
