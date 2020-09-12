@@ -75,9 +75,10 @@ h1{
 .content{
     margin-bottom: 30px;
     margin: 0 auto;
-    width: 800px;
+    width: 1024px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .content img{
     margin: 20px;
