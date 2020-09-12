@@ -52,16 +52,17 @@ table {
 }
 .header ol{
     display: flex;
+    margin: auto 0;
 }
 .header li{
-    margin-right: 20px;
+    margin: 10px;
 }
 .header a{
     display: block;
     color: white;
     font-size: 24px;
     text-decoration: none;
-    height: 80px;
+    text-align: center;
 }
 h1{
     color: white;
