@@ -49,6 +49,7 @@ table {
     justify-content: space-between;
     padding: 20px;
     align-items: center;
+    margin-bottom: 30px;
 }
 .header ol{
     display: flex;
@@ -67,4 +68,8 @@ table {
 h1{
     color: white;
     font-size: 36px;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
 }
