@@ -43,6 +43,6 @@ table {
 }
 .header{
     height: 100px;
-    color: black;
+    background: #000;
     opacity: 50%;
 }
