@@ -1,0 +1,258 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h2{
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  p{
+    font-size: 24px;
+    line-height: 42px;
+    font-style: italic;
+    font-weight: bold; 
+  }
+  .image{
+    background-image: url("../images/website.png");
+    height: 956px;
+    background-size: contain;
+    background-position: center ;
+    background-repeat: repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #707070  ;
+    margin-bottom: 64px;
+  }
+  .header p{
+    line-height: 36px;
+    color: black
+    margin-bottom: 48px;
+  }
+  .header span{
+    font-size: 24px;
+    line-height: 43px;
+    color: black;
+    font-style:italic;
+    font-weight: bold;
+  }
+  .header h1{
+    color: black;
+    font-size: 80px;
+    line-height: 94px;
+    margin-bottom: 32px;
+    font-style: italic;
+    font-family: roboto;
+    font-weight: bold;
+  }
+  .icon{
+    width: 304px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .icon img{
+    display: block;
+  }
+  .about{
+    width: 412px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about h2{
+    margin-bottom: 40px;
+  }
+  .about img{
+    margin-bottom: 10px;
+    display: block;
+    width: 421px;
+  }
+  .school{
+    line-height: 36px;
+    letter-spacing: -1px;
+    width: 412px;
+  }
+  .profile{
+    border-bottom: 1px solid black;
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+  }
+  .job-list{
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .list-dot{
+    height: 22px;
+    width: 22px;
+    border-radius:50%;
+    background: #891818;
+    margin-right: 16px;
+  }
+  .job{
+    margin-bottom: 56px;
+  }
+  .brand{
+    background: black;
+    color: white;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-bottom: 120px;
+    margin-bottom: 64px;
+  }
+  .mybrand{
+    width: 1224px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .mybrand h2{
+    margin-bottom: 9px;
+  }
+  .text-style{
+    margin-bottom: 25px;
+  }
+  .brandimg{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+  }
+  .ep{
+    width: 200px;
+  }
+  .w200{
+    width: 200px;
+  }
+
+  .tdn{
+    text-decoration: none;
+  }
+  .cw{
+    color: white;
+  }
+  .dpfx{
+    display: flex;
+  }
+  .jcsb{
+    justify-content: space-between;
+  }
+  .w1110{
+    width: 1110px;
+  }
+.fww{
+  flex-wrap: wrap;
+}
+  .text-style-n{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 68px; 
+  }
+  .text-style-n span{
+    font-style: italic;
+  }
+  .brandimg-t{
+    margin-bottom: 40px;
+    display: block;
+    margin-right: 24px;
+  }
+  .otherwork{
+    padding-bottom: 62px;
+  }
+  .otherwork p{
+    text-align: center;
+    margin-bottom: 56px;
+  }
+  .workimg-text{
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+  .workimg{
+    width: 200px;
+  }
+  .workimg img{
+    display: block;
+    margin-bottom: 16px;
+    width: 200px;
+  }
+  .otherwork h2{
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .footer{
+    background: #000;
+    text-align: center;
+    color: white;
+    padding-top: 64px;
+    padding-bottom: 73px;
+  }
+  .footer h2{
+    margin-bottom: 13px;
+  }
+  .footer li{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 10px;
+  }
+  .footer a{
+    color: white;
+    text-decoration: none;
+  }
+  .cb{
+    color: #000;
+  }
+  .fz16{
+    font-size: 16px;  
+  }
+  .lh24{
+    line-height: 24px;
+  }
